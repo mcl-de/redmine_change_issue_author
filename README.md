@@ -6,7 +6,7 @@ This plugin provides the ability to change the issue author
 Tested with redmine 2.4.2, compatible with 2.1.x, 2.2.x, 2.3.x
 
 
-# Copyright (C) 2014, Frederik Jung, MCL Computer & Zubehör GmbH,  http://www.mcl.de
+\# Copyright (C) 2014, Frederik Jung, MCL Computer & ZubehÃ¶r GmbH,  http://www.mcl.de
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
