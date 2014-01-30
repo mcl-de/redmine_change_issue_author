@@ -20,6 +20,7 @@ Redmine::Plugin.register :redmine_change_issue_author do
   version '0.0.1'
   url 'http://mcl.de'
   author_url 'mailto:frederik.jung@mcl.de'
+  requires_redmine :version_or_higher => '2.0.0'
   
   project_module :issue_tracking do
     permission :edit_issue_author, {}
