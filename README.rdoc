@@ -1,3 +1,0 @@
-= redmine_change_issue_author
-
-Tested with redmine 2.4.2, compatible with 2.1.x, 2.2.x, 2.3.x
