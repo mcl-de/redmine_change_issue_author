@@ -8,7 +8,7 @@ module ChangeAuehorIssuePatch
 		:if => lambda {|issue, user| (user.allowed_to?(:edit_issue_author, issue.project))}
 
       def assignable_users_without_group
-        assignable_users.select {|user| !user.has_attribute?(:type) || user.type == "User" }
+        User.active.uniq
       end
 
     end
