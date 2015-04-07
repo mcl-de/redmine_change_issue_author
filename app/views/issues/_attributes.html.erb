@@ -1,7 +1,7 @@
 <% html = Nokogiri::HTML.fragment(render(:parent)) %>
 <% html.at_css("div.splitcontentleft").first_element_child().before(capture do %>
 
-<% if User.current.allowed_to?(:edit_issue_author, @project) %>
+<% if User.current.allowed_to?(:edit_issue_author, @project) && !@issue.new_record? %>
 <p>
   <label for="issue_author_id"><%= l(:field_author) %><span class="required"> *</span></label>
   <%= select_tag('issue[author_id]', options_from_collection_for_select(@issue.assignable_users_without_group.collect, 'id', 'name', @issue.author_id) ) %>
