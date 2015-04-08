@@ -3,7 +3,7 @@
     <div class="splitcontentleft">
       <p>
         <label for="issue_author_id"><%= l(:field_author) %><span class="required"> *</span></label>
-        <%= select_tag('issue[author_id]', options_from_collection_for_select(@issue.assignable_users_without_group.collect, 'id', 'name', @issue.author_id) ) %>
+        <%= select_tag('issue[author_id]', options_from_collection_for_select(@issue.all_users.collect, 'id', 'name', @issue.author_id) ) %>
       </p>
     </div>
   </div>
