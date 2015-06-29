@@ -3,8 +3,7 @@ redmine_change_issue_author
 
 This plugin provides the ability to change the issue author
 
-**This plugin does not support 2.5.x at the moment.**
-Tested with redmine 2.4.2, compatible with 2.1.x, 2.2.x, 2.3.x
+Tested with redmine 2.6.2, compatible with 2.1.x, 2.2.x, 2.3.x, 2.4.x
 
 
 \# Copyright (C) 2014, Frederik Jung, MCL Computer & Zubehör GmbH,  http://www.mcl.de
