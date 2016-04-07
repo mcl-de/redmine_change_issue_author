@@ -1,6 +1,9 @@
 redmine_change_issue_author
 ===========================
 
+### !!! THIS PROJECT IS NOT MAINTAINED ANYMORE !!!
+### Internaly we don't use redmine anymore, so we not able to maintain this project.
+
 This plugin provides the ability to change the issue author
 
 Tested with redmine 2.6.2, compatible with 2.1.x, 2.2.x, 2.3.x, 2.4.x
